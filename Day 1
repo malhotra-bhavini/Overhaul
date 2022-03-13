@@ -1,0 +1,6 @@
+#lb to kg converter
+print('Hello user.')
+print('What is your weight in pounds? ')
+weight_lb = input()
+weight_kg = float(weight_lb) * 0.453592
+print('User, your weight in kilograms is ' + str(weight_kg))
